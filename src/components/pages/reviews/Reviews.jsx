@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <section className="page reviews-page">
       <div className="container">
-        <h2>  المذكرات </h2>
-        <p>هذه صفحة تعرض أحدث المذكرات.</p>
+        <h2>  المراجعات </h2>
+        <p>هذه صفحة تعرض المراجعات.</p>
       </div>
     </section>
   );

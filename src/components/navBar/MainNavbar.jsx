@@ -3,7 +3,7 @@ import { Navbar, Nav, Form, FormControl, Button, Badge, Container } from "react-
 import { NavLink } from "react-router-dom";
 import { FaSearch, FaUser, FaShoppingCart, FaBookmark, FaChevronDown } from "react-icons/fa";
 import "./MainNavbar.css";
-import LogoImage from "../assets/img/logo.png";
+import LogoImage from "../../assets/img/logo.png";
 
 function MainNavbar() {
   return (
