@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+
+/* MainNavbar.css */
+
+.roma-navbar {
+  background: #3D464D;
+  border-bottom: 4px solid #283238;
+  height: 100px;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.navbar-container {
+   margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.brand-logo {
+  height: 90px;
+  width: auto;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+
+.top-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.lang-select {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.cart-btn {
+  position: relative;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cart-badge {
+  background-color: #E99239 !important;
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  font-size: 0.65rem;
+  transform: translate(50%, -50%);
+  z-index: 2;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.search-form {
+  display: flex;
+  width: 333px;
+  height: 38px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 0.95rem;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #E99239 !important;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 39px; 
+}
+
+.nav-item {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 20px !important;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+    
+    color: #E99239 !important;
+}
+
+.divider {
+  width: 2px;
+  height: 18px;
+  background-color: #E99239;
+}
+
+.nav-item.active {
+  font-weight: 700;
+  color: #ffd9b8 !important;
+}
+
+
+/* Responsive  */
+@media (max-width: 992px) {
+  .roma-navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .search-container {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .search-form {
+    width: 100%;
+  }
+
+  .divider {
+    display: none;
+  }
+}
