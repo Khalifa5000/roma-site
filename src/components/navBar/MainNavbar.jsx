@@ -42,7 +42,7 @@ function MainNavbar() {
                 <FaSearch />
             </Button>
             <Form className="search-form d-flex">
-              <FormControl
+              <FormControl dir="rtl"
                 type="text"
                 placeholder="ابحث باسم الكتاب، المؤلف، العنوان..."
                 className="search-input"

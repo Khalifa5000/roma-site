@@ -67,6 +67,7 @@
   color: #fff;
   font-size: 1.2rem;
   cursor: pointer;
+
 }
 
 .cart-badge {
@@ -96,16 +97,21 @@
 
 .search-input {
   flex: 1;
-  border: none;
+  border: none !important;
   padding: 0 10px;
   font-size: 0.95rem;
   border-radius: 2px 0 0 2px;
-  outline: none;
+  outline: none !important;
+
+}
+.search-form:focus  {
+  outline: none !important;
+  border: none !important;
 }
 
 .search-btn {
   background-color: #E99239 !important;
-  border: none;
+  border: none !important;
   border-radius: 0 2px 2px 0;
   width: 42px;
   display: flex;
